@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.2
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: QDHAWHAmAP7Z6FIT64amOR9dXR7tiWeIV464ch1tR5UjehgeMuWHrA26/6CEdTlac1RIQF+4kaQgSUWO8csxHyLnSF/emAxg2PEfO29yhKq2B4r1N6Mzx/sAnQTODN3E4gJaFAGQkgCT6sdgpqK0Y/YjtFuRf0HZbJoMebkKCaLiTALBMDkLjZG4gb2rOhy5NEqbqp9Ar261L0Z89QpHXO+xEASMARlLokazKz/ooZSH3Nhc1CYEEV/inH65Ytc1M+f39KRj9zlPaG/BmU2YdELxitCrQYIEb9ggAubto8WTlKJTUtXIdOsaBVGDY03KOu4WMU6zzBXjBZsWGiuFW6TMe3k2wYyt2kTzLbEWu6SxJgkmErimZ2E2+Mh3/cSU4pSM23ujS1P8MXcmRZotmvqVyq93Lcb0Ey1sXrup+9iRK4E+xxO5P+wzOZtGX3+W4sm05VysC0mXImVzYU8+STYuB/g0Bwr4iyzvr/kSt4Rr6SY677jUIpVPO1TPkjy9e+tTglfTAV0OOe06oJewUXFbwc9+CkZAULTrlm68NcSn5VF9pIIRB/yQVTRb6yhGfFw5lKC0kezu8KAxJap8oeLkXwgTivAZTmHRsOgz5rGwX4LGsc8n+JFACFq6BkeygELHjKpdxzFbucgSd2TFr2Xq2doriigIHSnP3i+5qz8=
+  app: salty-atoll-8600
+  on:
+    repo: MaMiyauchi/rails_enpit
